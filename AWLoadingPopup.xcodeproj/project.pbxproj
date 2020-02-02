@@ -10,6 +10,11 @@
 		C87F4A9823E6F41B00EEFB6C /* AWLoadingPopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87F4A8E23E6F41B00EEFB6C /* AWLoadingPopup.framework */; };
 		C87F4A9D23E6F41B00EEFB6C /* AWLoadingPopupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F4A9C23E6F41B00EEFB6C /* AWLoadingPopupTests.swift */; };
 		C87F4A9F23E6F41B00EEFB6C /* AWLoadingPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F4A9123E6F41B00EEFB6C /* AWLoadingPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87F4AA923E6F45100EEFB6C /* AWLoadingPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F4AA823E6F45100EEFB6C /* AWLoadingPopup.swift */; };
+		C87F4AAB23E6F5AE00EEFB6C /* AWLoadingPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87F4AAA23E6F5AE00EEFB6C /* AWLoadingPopup.xib */; };
+		C87F4AAC23E6F5AE00EEFB6C /* AWLoadingPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87F4AAA23E6F5AE00EEFB6C /* AWLoadingPopup.xib */; };
+		C87F4AAD23E6F5B100EEFB6C /* AWLoadingPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F4AA823E6F45100EEFB6C /* AWLoadingPopup.swift */; };
+		C87F4AAF23E6F75600EEFB6C /* AWLoadingPopupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F4AAE23E6F75600EEFB6C /* AWLoadingPopupUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,9 @@
 		C87F4A9723E6F41B00EEFB6C /* AWLoadingPopupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWLoadingPopupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87F4A9C23E6F41B00EEFB6C /* AWLoadingPopupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWLoadingPopupTests.swift; sourceTree = "<group>"; };
 		C87F4A9E23E6F41B00EEFB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87F4AA823E6F45100EEFB6C /* AWLoadingPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWLoadingPopup.swift; sourceTree = "<group>"; };
+		C87F4AAA23E6F5AE00EEFB6C /* AWLoadingPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AWLoadingPopup.xib; sourceTree = "<group>"; };
+		C87F4AAE23E6F75600EEFB6C /* AWLoadingPopupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWLoadingPopupUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,8 @@
 			children = (
 				C87F4A9123E6F41B00EEFB6C /* AWLoadingPopup.h */,
 				C87F4A9223E6F41B00EEFB6C /* Info.plist */,
+				C87F4AA823E6F45100EEFB6C /* AWLoadingPopup.swift */,
+				C87F4AAA23E6F5AE00EEFB6C /* AWLoadingPopup.xib */,
 			);
 			path = AWLoadingPopup;
 			sourceTree = "<group>";
@@ -81,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				C87F4A9C23E6F41B00EEFB6C /* AWLoadingPopupTests.swift */,
+				C87F4AAE23E6F75600EEFB6C /* AWLoadingPopupUITests.swift */,
 				C87F4A9E23E6F41B00EEFB6C /* Info.plist */,
 			);
 			path = AWLoadingPopupTests;
@@ -148,6 +159,7 @@
 				TargetAttributes = {
 					C87F4A8D23E6F41B00EEFB6C = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					C87F4A9623E6F41B00EEFB6C = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -178,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87F4AAB23E6F5AE00EEFB6C /* AWLoadingPopup.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87F4AAC23E6F5AE00EEFB6C /* AWLoadingPopup.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87F4AA923E6F45100EEFB6C /* AWLoadingPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C87F4A9D23E6F41B00EEFB6C /* AWLoadingPopupTests.swift in Sources */,
+				C87F4AAF23E6F75600EEFB6C /* AWLoadingPopupUITests.swift in Sources */,
+				C87F4AAD23E6F5B100EEFB6C /* AWLoadingPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +357,7 @@
 		C87F4AA323E6F41B00EEFB6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KB5ZAP8MFS;
@@ -348,6 +366,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AWLoadingPopup/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +375,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ro.tana.AWLoadingPopup;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +385,7 @@
 		C87F4AA423E6F41B00EEFB6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KB5ZAP8MFS;
@@ -372,6 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AWLoadingPopup/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,6 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ro.tana.AWLoadingPopup;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,6 +412,7 @@
 		C87F4AA623E6F41B00EEFB6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB5ZAP8MFS;
 				INFOPLIST_FILE = AWLoadingPopupTests/Info.plist;
@@ -406,6 +431,7 @@
 		C87F4AA723E6F41B00EEFB6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB5ZAP8MFS;
 				INFOPLIST_FILE = AWLoadingPopupTests/Info.plist;
