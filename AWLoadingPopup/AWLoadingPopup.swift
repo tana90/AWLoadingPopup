@@ -14,7 +14,7 @@ public final class AWLoadingPopup: UIView {
     
     static let shared: AWLoadingPopup = {
         var instance = AWLoadingPopup()
-        instance = Bundle.main.loadNibNamed("AWLoadingPopup", owner: instance, options: nil)?.first as! AWLoadingPopup
+        instance = Bundle(identifier: "ro.tana.AWLoadingPopup")!.loadNibNamed("AWLoadingPopup", owner: instance, options: nil)?.first as! AWLoadingPopup
         return instance
     }()
     
