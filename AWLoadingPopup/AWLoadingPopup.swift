@@ -13,7 +13,9 @@ public final class AWLoadingPopup: UIView {
     @IBOutlet weak var contentView: UIView!
     
     static let shared: AWLoadingPopup = {
-        return Bundle.main.loadNibNamed("AWLoadingPopup", owner: AWLoadingPopup(), options: nil)?.first as! AWLoadingPopup
+        var instance = AWLoadingPopup()
+        instance = Bundle.main.loadNibNamed("AWLoadingPopup", owner: instance, options: nil)?.first as! AWLoadingPopup
+        return instance
     }()
     
     public static func present(on view: UIView) {
