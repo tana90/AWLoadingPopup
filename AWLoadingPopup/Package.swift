@@ -24,8 +24,5 @@ let package = Package(
         .target(
             name: "AWLoadingPopup",
             dependencies: []),
-        .testTarget(
-            name: "AWLoadingPopupTests",
-            dependencies: ["AWLoadingPopup"]),
     ]
 )
